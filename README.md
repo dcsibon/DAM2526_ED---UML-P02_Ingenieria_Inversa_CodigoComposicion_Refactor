@@ -35,11 +35,9 @@ En el repositorio encontrarás:
 
 ---
 
-### 3. Qué debes hacer
+### 3. Qué debéis hacer
 
-#### Parte A – Implementar nuevas clases (paquete `agenda.app`)
-
-Debes implementar las clases indicadas en el UML (y en los TODOs):
+Debéis implementar las clases indicadas en el UML (tenéis ayudas en la documentación y en los TODOs):
 
 * **`Consola`**
   Encapsula la lectura de datos por teclado y la escritura por pantalla.
@@ -52,17 +50,7 @@ Debes implementar las clases indicadas en el UML (y en los TODOs):
 * **`GestorAgenda`**
   Implementa las operaciones que el usuario puede ejecutar desde el menú:
 
-  * agregar contacto
-  * listar contactos
-  * buscar contacto
-  * borrar contacto
-  * agregar teléfono a un contacto
-
-    Esta clase usará `Agenda` (dominio) y `Consola` (app).
-
-#### Parte B – Adaptar `Main`
-
-Debes modificar `Main` para:
+Debéis modificar `Main` para:
 
 * crear los objetos necesarios (`Consola`, `Menu`, `Agenda`, `GestorAgenda`),
 * ejecutar el bucle principal del programa,
@@ -88,6 +76,3 @@ Sube al repositorio tu solución con un proyecto de Java que contenga:
 * `Main` adaptado,
 * el proyecto ejecutable.
 
----
-
-Si quieres, te lo dejo también como **README.md listo para pegar** (con secciones y formato GitHub) y con una checklist final para que el alumnado sepa cuándo lo tiene terminado.
